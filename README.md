@@ -1,2 +1,2 @@
-# rishidamaraju.github.io
+# rishidamarajuUGA.github.io
 Personal Portfolio
