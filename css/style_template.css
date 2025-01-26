@@ -1,0 +1,238 @@
+/* General Styles */
+body {
+    margin: 0;
+}
+
+/* Nav Styles */
+nav {
+    background-color: #dad7cd;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    border-bottom: dotted;
+    border-width: 3px;
+
+    font-family: "Outfit", serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+nav p,
+nav a {
+    margin: 0;
+    text-decoration: none;
+    color: black;
+}
+
+nav a {}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #a3b18a;
+
+
+}
+
+footer a {
+    margin: 0;
+    text-decoration: none;
+    color: black;
+
+    font-family: "Outfit", serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Splash Section */
+.splash {
+    background-color: #A3B18A;
+    text-align: center;
+    padding: 10px 20px;
+    margin: 20px;
+    border-radius: 25px;
+}
+
+.splash h1 {
+    font-family: "Outfit", serif;
+    font-weight: 600;
+    font-size: 35px;
+    color: #283618;
+
+    margin: 5px;
+}
+
+.splash img {
+    border-radius: 100px;
+    border-style: solid;
+    border-color: #333d29;
+}
+
+.splash p {
+    font-family: "Outfit", serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+/* Horizontal Rules */
+hr {
+    border-style: dashed;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+/* Sections */
+section {
+    background: rgba(236, 243, 158, 0.4);
+    margin: 10px;
+    border-radius: 15px;
+    padding: 1px;
+}
+
+/* Section Headings */
+section h2 {
+    font-family: "Outfit", serif;
+    font-weight: 570;
+    font-size: 25px;
+    margin-bottom: 0;
+    padding-left: 10px;
+}
+
+/* Paragraph Styles */
+section p {
+    font-family: "Outfit", serif;
+    font-weight: 385;
+    font-size: 15px;
+    margin: 0;
+    padding: 10px;
+}
+
+/* link styles */
+section a {
+    font-family: "Outfit", serif;
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration: none;
+    color: #132a13;
+}
+
+section a:hover {
+    text-decoration: underline;
+}
+
+/* List Styles ul: unordered, dl: description list, dt: definition title, dd: definition description*/
+
+ul {
+    font-family: "Outfit", serif;
+    font-weight: 385;
+    font-size: 15px;
+}
+
+dl {
+    padding-left: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+dl dt {
+    font-family: "Outfit", serif;
+    font-weight: 385;
+    font-size: 15px;
+}
+
+dl dd {
+    font-family: "Outfit", serif;
+    font-weight: 280;
+    font-size: 15px;
+}
+
+/* Project Section */
+.three-col {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.card {
+    background-color: #dde5b6;
+    border-radius: 25px;
+    margin: 10px;
+    box-shadow: 2px 2px 2px grey;
+}
+
+.card img {
+    height: auto;
+    border-radius: 50px;
+    max-width: 20%;
+    object-fit: cover;
+    border-style: solid;
+    margin: 10px;
+}
+
+.card h3 {
+    margin: 10px;
+    margin-top: 0;
+    font-family: "Outfit", serif;
+    font-weight: 685;
+    font-size: 20px;
+}
+
+/* Contact Page Styles */
+.one-col {
+    text-align: center;
+}
+
+.one-col h1 {
+    font-family: "Outfit", serif;
+    font-weight: 600;
+    font-size: 35px;
+    color: #283618;
+
+    margin-bottom: 5px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: auto;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 20px;
+    font-family: "Outfit", serif;
+    font-weight: 485;
+    font-size: 15px;
+}
+
+form input,
+form textarea {
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+  border-bottom: 2px solid #718355;
+}
+
+form input:focus,
+form textarea:focus {
+    background-color: #e9f5db;
+}
+
+form button {
+    font-family: "Outfit", serif;
+    font-weight: 585;
+    font-size: 15px;
+    margin-top: 40px;
+    background-color: #cfe1b9;
+    border-width: 1px;
+}
+
+form button:hover {
+    background-color: #97a97c;
+    border-radius: 10px;
+}
